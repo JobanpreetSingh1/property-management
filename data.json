@@ -1,0 +1,235 @@
+{
+  "users": [
+    {
+      "_id": "507f1f77bcf86cd799439011",
+      "name": "John Smith",
+      "email": "john.smith@email.com",
+      "password": "$2b$10$hashedpassword123",
+      "role": "user",
+      "createdAt": "2024-01-15T10:30:00.000Z",
+      "updatedAt": "2024-01-15T10:30:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439012",
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@email.com",
+      "password": "$2b$10$hashedpassword456",
+      "role": "user",
+      "createdAt": "2024-01-16T14:20:00.000Z",
+      "updatedAt": "2024-01-16T14:20:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439013",
+      "name": "Mike Wilson",
+      "email": "mike.wilson@email.com",
+      "password": "$2b$10$hashedpassword789",
+      "role": "admin",
+      "createdAt": "2024-01-10T09:15:00.000Z",
+      "updatedAt": "2024-01-10T09:15:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439014",
+      "name": "Emily Davis",
+      "email": "emily.davis@email.com",
+      "password": "$2b$10$hashedpassword101",
+      "role": "user",
+      "createdAt": "2024-01-18T16:45:00.000Z",
+      "updatedAt": "2024-01-18T16:45:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439015",
+      "name": "David Brown",
+      "email": "david.brown@email.com",
+      "password": "$2b$10$hashedpassword202",
+      "role": "user",
+      "createdAt": "2024-01-20T11:30:00.000Z",
+      "updatedAt": "2024-01-20T11:30:00.000Z"
+    }
+  ],
+  "properties": [
+    {
+      "_id": "507f1f77bcf86cd799439021",
+      "title": "Modern Downtown Apartment",
+      "location": "123 Main Street, Downtown",
+      "price": 2500,
+      "type": "Apartment",
+      "description": "Beautiful 2-bedroom apartment in the heart of downtown with stunning city views. Recently renovated with modern amenities including stainless steel appliances, hardwood floors, and a private balcony.",
+      "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop",
+      "ownerId": "507f1f77bcf86cd799439011",
+      "createdAt": "2024-01-15T10:30:00.000Z",
+      "updatedAt": "2024-01-15T10:30:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439022",
+      "title": "Cozy Suburban House",
+      "location": "456 Oak Avenue, Suburbs",
+      "price": 3200,
+      "type": "House",
+      "description": "Charming 3-bedroom house in a quiet suburban neighborhood. Features a spacious backyard, updated kitchen, and plenty of natural light. Perfect for families.",
+      "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop",
+      "ownerId": "507f1f77bcf86cd799439012",
+      "createdAt": "2024-01-16T14:20:00.000Z",
+      "updatedAt": "2024-01-16T14:20:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439023",
+      "title": "Luxury Beach Villa",
+      "location": "789 Coastal Drive, Beachfront",
+      "price": 8500,
+      "type": "Villa",
+      "description": "Exclusive beachfront villa with panoramic ocean views. Features 4 bedrooms, private pool, gourmet kitchen, and direct beach access. Ultimate luxury living experience.",
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&h=600&fit=crop",
+      "ownerId": "507f1f77bcf86cd799439013",
+      "createdAt": "2024-01-10T09:15:00.000Z",
+      "updatedAt": "2024-01-10T09:15:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439024",
+      "title": "Urban Studio Loft",
+      "location": "321 Industrial Way, Arts District",
+      "price": 1800,
+      "type": "Studio",
+      "description": "Converted industrial loft with high ceilings and exposed brick walls. Perfect for artists or young professionals. Includes modern appliances and plenty of storage.",
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop",
+      "ownerId": "507f1f77bcf86cd799439014",
+      "createdAt": "2024-01-18T16:45:00.000Z",
+      "updatedAt": "2024-01-18T16:45:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439025",
+      "title": "Family-Friendly Townhouse",
+      "location": "654 Maple Street, Family District",
+      "price": 2800,
+      "type": "House",
+      "description": "Spacious 4-bedroom townhouse in a family-oriented community. Features a finished basement, attached garage, and community playground nearby.",
+      "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&h=600&fit=crop",
+      "ownerId": "507f1f77bcf86cd799439015",
+      "createdAt": "2024-01-20T11:30:00.000Z",
+      "updatedAt": "2024-01-20T11:30:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439026",
+      "title": "Mountain View Cabin",
+      "location": "987 Pine Ridge Road, Mountains",
+      "price": 4200,
+      "type": "House",
+      "description": "Rustic yet modern cabin with breathtaking mountain views. Features 3 bedrooms, stone fireplace, wrap-around deck, and hiking trails nearby.",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop",
+      "ownerId": "507f1f77bcf86cd799439011",
+      "createdAt": "2024-01-22T08:15:00.000Z",
+      "updatedAt": "2024-01-22T08:15:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439027",
+      "title": "Historic City Apartment",
+      "location": "147 Heritage Lane, Old Town",
+      "price": 2200,
+      "type": "Apartment",
+      "description": "Beautifully restored apartment in a historic building. Features original hardwood floors, crown molding, and modern updates while preserving character.",
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=600&fit=crop",
+      "ownerId": "507f1f77bcf86cd799439012",
+      "createdAt": "2024-01-24T13:45:00.000Z",
+      "updatedAt": "2024-01-24T13:45:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439028",
+      "title": "Minimalist Studio",
+      "location": "258 Minimalist Way, Design District",
+      "price": 1600,
+      "type": "Studio",
+      "description": "Sleek, minimalist studio with clean lines and modern design. Features built-in storage, smart home technology, and rooftop access.",
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop",
+      "ownerId": "507f1f77bcf86cd799439013",
+      "createdAt": "2024-01-26T10:20:00.000Z",
+      "updatedAt": "2024-01-26T10:20:00.000Z"
+    }
+  ],
+  "bookings": [
+    {
+      "_id": "507f1f77bcf86cd799439031",
+      "propertyId": "507f1f77bcf86cd799439021",
+      "userId": "507f1f77bcf86cd799439014",
+      "status": "confirmed",
+      "createdAt": "2024-01-25T15:30:00.000Z",
+      "updatedAt": "2024-01-25T15:30:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439032",
+      "propertyId": "507f1f77bcf86cd799439022",
+      "userId": "507f1f77bcf86cd799439015",
+      "status": "pending",
+      "createdAt": "2024-01-26T09:15:00.000Z",
+      "updatedAt": "2024-01-26T09:15:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439033",
+      "propertyId": "507f1f77bcf86cd799439023",
+      "userId": "507f1f77bcf86cd799439011",
+      "status": "confirmed",
+      "createdAt": "2024-01-27T14:20:00.000Z",
+      "updatedAt": "2024-01-27T14:20:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439034",
+      "propertyId": "507f1f77bcf86cd799439024",
+      "userId": "507f1f77bcf86cd799439012",
+      "status": "cancelled",
+      "createdAt": "2024-01-28T11:45:00.000Z",
+      "updatedAt": "2024-01-28T11:45:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439035",
+      "propertyId": "507f1f77bcf86cd799439025",
+      "userId": "507f1f77bcf86cd799439013",
+      "status": "pending",
+      "createdAt": "2024-01-29T16:30:00.000Z",
+      "updatedAt": "2024-01-29T16:30:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439036",
+      "propertyId": "507f1f77bcf86cd799439026",
+      "userId": "507f1f77bcf86cd799439014",
+      "status": "confirmed",
+      "createdAt": "2024-01-30T08:15:00.000Z",
+      "updatedAt": "2024-01-30T08:15:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439037",
+      "propertyId": "507f1f77bcf86cd799439027",
+      "userId": "507f1f77bcf86cd799439015",
+      "status": "pending",
+      "createdAt": "2024-01-31T12:20:00.000Z",
+      "updatedAt": "2024-01-31T12:20:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439038",
+      "propertyId": "507f1f77bcf86cd799439028",
+      "userId": "507f1f77bcf86cd799439011",
+      "status": "confirmed",
+      "createdAt": "2024-02-01T10:45:00.000Z",
+      "updatedAt": "2024-02-01T10:45:00.000Z"
+    }
+  ],
+  "metadata": {
+    "totalUsers": 5,
+    "totalProperties": 8,
+    "totalBookings": 8,
+    "propertyTypes": {
+      "Apartment": 2,
+      "House": 3,
+      "Villa": 1,
+      "Studio": 2
+    },
+    "bookingStatuses": {
+      "pending": 3,
+      "confirmed": 4,
+      "cancelled": 1
+    },
+    "priceRange": {
+      "min": 1600,
+      "max": 8500,
+      "average": 3200
+    },
+    "lastUpdated": "2024-02-01T10:45:00.000Z"
+  }
+}

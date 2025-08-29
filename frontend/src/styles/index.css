@@ -1,0 +1,40 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { @apply bg-gray-50 text-gray-900; }
+
+        
+            .icon-toggle {
+              width: 2 rem;
+              height: 2 rem;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              background: none;
+              border: none;
+              padding: 0;
+              cursor: pointer;
+            }
+            .icon-bar {
+              display: block;
+              width: 1.5rem;
+              height: 0.2rem;
+              margin: 0.2rem 0;
+              background: currentColor;
+              border-radius: 2px;
+              transition: 0.3s;
+            }
+            .icon-toggle.open .icon-bar:nth-child(1) {
+              transform: translateY(0.4rem) rotate(45deg);
+            }
+            .icon-toggle.open .icon-bar:nth-child(2) {
+              opacity: 0;
+            }
+            .icon-toggle.open .icon-bar:nth-child(3) {
+              transform: translateY(-0.4rem) rotate(-45deg);
+            }
+        
