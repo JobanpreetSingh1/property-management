@@ -6,10 +6,10 @@
 html, body, #root { height: 100%; }
 body { @apply bg-gray-50 text-gray-900; }
 
-        
+
             .icon-toggle {
-              width: 2 rem;
-              height: 2 rem;
+              width: 2rem;
+              height: 2rem;
               display: flex;
               flex-direction: column;
               justify-content: center;
@@ -37,4 +37,3 @@ body { @apply bg-gray-50 text-gray-900; }
             .icon-toggle.open .icon-bar:nth-child(3) {
               transform: translateY(-0.4rem) rotate(-45deg);
             }
-        
